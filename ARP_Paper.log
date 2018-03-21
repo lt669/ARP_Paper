@@ -1,0 +1,593 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.7)  21 MAR 2018 17:36
+entering extended mode
+**./ARP_Paper.tex
+(ARP_Paper.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+(aes2e.cls
+Document Class: aes2e 2010/10/16 v1.0 Standard LaTeX document class for AES
+\trimwidth=\dimen102
+\trimheight=\dimen103
+\typewidth=\dimen104
+\typeheight=\dimen105
+\tempdimen=\dimen106
+\normaltextheight=\dimen107
+\normalbaselineskip=\skip41
+\blindfoliodrop=\dimen108
+\enumdim=\dimen109
+\figwidth=\dimen110
+\tabledim=\dimen111
+\tableleftskip=\skip42
+\tablerightskip=\skip43
+\tabnoteleftskip=\skip44
+\tabnoterightskip=\skip45
+\mathindent=\dimen112
+\tempbox=\box26
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\topsepi=\skip46
+\topsepii=\skip47
+\topsepiii=\skip48
+\itemsepi=\skip49
+\itemsepii=\skip50
+\itemsepiii=\skip51
+\LabelSep=\dimen113
+\listtextleftmargin=\skip52
+\listtextleftmarginii=\skip53
+\listtextleftmarginiii=\skip54
+\listtextrightmargin=\skip55
+\listlabelleftskip=\skip56
+\listlabelleftskipii=\skip57
+\listlabelleftskipiii=\skip58
+\abovelistskipi=\skip59
+\belowlistskipi=\skip60
+\abovelistskipii=\skip61
+\belowlistskipii=\skip62
+\abovelistskipiii=\skip63
+\belowlistskipiii=\skip64
+\labelsepi=\skip65
+\labelsepii=\skip66
+\labelsepiii=\skip67
+\enumdimwd=\dimen114
+\itemleftmargin=\dimen115
+\itemlabelsep=\dimen116
+\c@ncount=\count86
+\c@theorem=\count87
+\c@example=\count88
+\c@theorem=\count89
+\c@lemma=\count90
+\c@proposition=\count91
+\c@corollary=\count92
+\c@definition=\count93
+\c@notation=\count94
+\c@assumption=\count95
+\c@remark=\count96
+\abovecaptionskip=\skip68
+\belowcaptionskip=\skip69
+\c@figure=\count97
+\c@table=\count98
+\c@boxenv=\count99
+\@footmax=\dimen117
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
+70.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
+70.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
+70.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
+70.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1170
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1170.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1170.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1170.
+\bibitemsep=\dimen118
+\bibparsep=\dimen119
+\biblabelsep=\dimen120
+\authorcount=\count100
+\affcount=\count101
+\tempcount=\count102
+LaTeX Info: Redefining \[ on input line 1547.
+LaTeX Info: Redefining \] on input line 1548.
+\@partialpageht=\dimen121
+\store@outputbox=\box27
+\storedboxheight=\dimen122
+\nommaxdim=\dimen123
+\nombox=\box28
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\sttools\cuted.sty"
+Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
+\At@ViperColsBreak=\toks15
+\v@aaa=\box29
+\v@ccc=\box30
+\lastskip@a=\skip70
+\lastskip@b=\skip71
+\lastskip@d=\skip72
+\lastbox@a=\box31
+\stripsep=\skip73
+\@viper=\box32
+\viper@penalty=\count103
+\hold@viper=\box33
+\ht@viper=\dimen124
+)
+\calccount=\count104
+\biocount=\count105
+\printbiocount=\count106
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks16
+\extratabsurround=\skip74
+\backup@length=\skip75
+) (ARP_Paper.aux)
+\openout1 = `ARP_Paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+\big@size=\dimen129
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen130
+\scratchbox=\box34
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen131
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks18
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 19.
+Package gensymb Info: Math companion symbols declared on input line 19.
+LaTeX Info: Redefining \degree on input line 19.
+LaTeX Info: Redefining \celsius on input line 19.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 19.
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \textohm for \ohm on input line 19.
+Package gensymb Info: Using \textmu for \micro on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 37.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/bx/it' in size <10> not available
+(Font)              Font shape `TS1/phv/b/it' tried instead on input line 52.
+LaTeX Font Info:    Font shape `TS1/phv/b/it' in size <10> not available
+(Font)              Font shape `TS1/phv/b/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \vbox (badness 2617) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]|\OT1/ptm/m/n/10 Abundance of low fre-quen-cies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]|\OT1/ptm/m/n/10 Abundance of high fre-quen-cies
+ []
+
+
+Overfull \hbox (3.65477pt too wide) in paragraph at lines 90--105
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.76955pt too wide) in paragraph at lines 121--128
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/Audio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!
+
+
+]
+<images/AvB_Bar.PNG, id=12, 675.27281pt x 442.65375pt>
+File: images/AvB_Bar.PNG Graphic file (type png)
+<use images/AvB_Bar.PNG>
+Package pdftex.def Info: images/AvB_Bar.PNG  used on input line 134. on input l
+ine 134.
+Package pdftex.def Info: Requested size: 243.0pt x 159.28767pt on input line 13
+4.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 134--135
+[][] 
+ []
+
+(ARP_Paper.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 3735) in paragraph at lines 11--16
+[]\OT1/ptm/m/n/10 H. Riaz, M. Stiles, C. Arm-strong, A. Chad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\OT1/ptm/m/n/10 wick, H. Lee, G. Kear-ney, ``Mul-ti-chan-nel Mi-cro-
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 11--16
+\OT1/ptm/m/n/10 phone Ar-ray Record-ing for Pop-u-lar Mu-sic Pro-duc-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 11--16
+\OT1/ptm/m/n/10 tion in Vir-tual Re-al-ity,'' pre-sented at the \OT1/ptm/m/it/1
+0 Au-dio En-
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 11--16
+\OT1/ptm/m/it/10 gi-neer-ing So-ci-ety Con-ven-tion 143 \OT1/ptm/m/n/10 (2017 O
+ct), URL
+ []
+
+
+Overfull \hbox (44.501pt too wide) in paragraph at lines 11--16
+\OT1/pcr/m/n/10 http://www.aes.org/e-lib/browse.cfm?elib=19333\OT1/ptm/m/n/10 .
+ 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:66.16995pt when 374.92564pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:66.16995pt when 375.92564pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:66.16995pt when 376.92564pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:0.0pt when 377.92564pt
+(2)Left:377.92564pt Right:300.16995pt Output:377.92564pt
+- LAST -
+Left:377.92564pt
+Right:300.16995pt
+Output:377.92564pt
+
+Overfull \vbox (2.5pt too high) has occurred while \output is active []
+
+Extra height:0.0pt when 2.5pt
+
+Overfull \vbox (2.5pt too high) has occurred while \output is active []
+
+(2)Left:2.5pt Right:0.0pt Output:2.5pt
+- LAST -
+Left:2.5pt
+Right:0.0pt
+Output:2.5pt
+
+Overfull \vbox (2.5pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (252.0pt too wide) in paragraph at lines 161--161
+| 
+ []
+
+[2
+
+ <./images/AvB_Bar.PNG>] (ARP_Paper.aux) ) 
+Here is how much of TeX's memory you used:
+ 2677 strings out of 493312
+ 37847 string characters out of 3138900
+ 107071 words of memory out of 3000000
+ 6162 multiletter control sequences out of 15000+200000
+ 39485 words of font info for 80 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,25p,538b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/en
+c/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ARP_Paper.pdf (2 pages, 118755 bytes).
+PDF statistics:
+ 45 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

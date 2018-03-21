@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{[Online]. Available: \discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{riaz2017multichannel}
+H.~Riaz, M.~Stiles, C.~Armstrong, A.~Chadwick, H.~Lee, G.~Kearney,
+  \enquote{Multichannel Microphone Array Recording for Popular Music Production
+  in Virtual Reality,} presented at the \emph{Audio Engineering Society
+  Convention 143} (2017 Oct),
+  \urlprefix\url{http://www.aes.org/e-lib/browse.cfm?elib=19333}.
+
+\end{thebibliography}
