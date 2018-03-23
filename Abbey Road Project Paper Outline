@@ -1,0 +1,45 @@
+Abbey Road Project Paper Outline
+
+INTRODUCITON
+	
+	- Current use of VR
+	- Traslation from stereo music to 3d music
+	- What is this project and what do we want to get out of this
+
+LITERATURE REVIEW
+	- Spatial audio recording techniques
+	- Spatial microphone arrays (Hash's Thesis)
+	- Current Spatial Audio Workflows
+
+
+RECORDING AT ABBEY ROAD
+	- The room
+	- All mic positions + arrays used
+	- Cameras
+
+POST-PROCESSING
+	- Reaper project set up
+	- Microhpone treatment (format conversion)
+		- Format conversion (pg 69 thesis)
+		- SF rotation
+	- B-Format reverb
+	- Binaural decoders (config files and speaker arrays)
+		- Use of MaxRe decoder due to current unavailability of dual band decoding
+	- Video Post production
+		- GoPro Omni Rig and Omni Importer (AutoPano Video)
+		- Samsung 360
+	- Head Tracking with SpookSync
+	- Ambisonic encoding
+	- Overall set up (image pg 76 thesis)
+
+LISTENING TESTS
+	- Attriutes focus group
+	- Test Procedure
+	- Resuslts Analysis
+		- Analysis 1 - 5
+
+CONCLUSIONS
+	- Results analysis conclusions
+	- Recording conclusions
+	- Workflow conclusions
+	- Further work
