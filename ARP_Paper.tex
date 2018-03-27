@@ -1,3 +1,5 @@
+% COMPILE FROM THIS FILE
+
 \documentclass{aes2e}
 
 % PACKAGES
@@ -7,6 +9,13 @@
 \usepackage{graphicx}
 \usepackage{import}
 \usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{booktabs}
+
+% Shorten the command to make using m{} centered withing tabular
+\newcommand{\cen}{\centering\arraybackslash}
+
 
 % Graphics Path
 \graphicspath{{images/plots}}
@@ -37,6 +46,7 @@
 % \abstract{Abstract here}
 \maketitle
 
+% INPUT SECTIONS: Split to make writing sections easier
 %\input{tex/intro}
 %\input{tex/recording}
 %\input{tex/post}

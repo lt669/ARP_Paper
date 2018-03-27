@@ -1,20 +1,66 @@
 
-\section{Analysis}
-	% Analysis 1 - 5
-	To best analyse the results, five analysis targets were defined:
+
+
+
+
+
+
+% =========----------	[ Space left here for distraction free mode] ----------==========%
+
+
+
+
+
+
+
+
+
+
+\section{Analysis Overview}
+
+	All test data was recorded using a Google Form and collated into a large document upon finishing the testing period. All data was then imported into MATLAB for analysis. Table~\ref{image:results_sum} shows the average spatial attribute results for each microphone across each spatial attribute. The highest scores are highlighted in green. The directional OCT microphone array from microphone position and viewing position B scored highest for 'Locatedness' and scored the highest along with the Hamasaki Cube, a diffuse-field microphone array located at position C for 'Sense of Space'. The Hamasaki Cube when viewing from position A scored the highest for 'Externalisation' and 'Envelopment' which results in the highest over all spatial attribute average score. A break down of timbral attribute scores is covered in section~\ref{ana4}\\
+
+
+	The following six sections will be used to further break down and analyse the data: \\
 
 	\begin{tabular}{r p{5.5cm}}
-		Analysis 1: & Does viewing position effect Spatial Attribute rating? \\
-		Analysis 2: & Does the choice of microphone array effect Spatial Attribute score? \\
+		Analysis 1: & Does viewing position affect Spatial Attribute rating? \\
+		Analysis 2: & Does the choice of microphone array affect Spatial Attribute score? \\
 		Analysis 3: & What is the effect of using Directional or Diffuse-Field Arrays? \\ 
-		Analysis 4: & Is there a in perception of timbre with difference viewing positions? \\
-		Analysis 5: & Is there a correlation between SA score and selected timral attributes?
+		Analysis 4: & Does perception of timbre change with difference viewing positions? \\
+		Analysis 5: & Is there a correlation between spatial attribute score and selected timral attributes? \\
+		Analysis 6: & Is there a correlation between the enjoyment rating and spatial audio attributes?
 	\end{tabular}
-
-	%\input{tex/analysis_sub/ana1}
-	%\input{tex/analysis_sub/ana2}
-	%\input{tex/analysis_sub/ana3}
-	%\input{tex/analysis_sub/ana4}
-	\input{tex/analysis_sub/ana5}
-
 	
+	\begin{table}
+	\begin{center}
+		\includegraphics[width=0.45\textwidth]{images/graphs/results_sum_graph_V3.PNG}
+		\caption{Table containing the average spatial attribute scores for all microphone with on over all average spatial attribute score. Highest scoring microphones are highlighted in green.}
+		\label{image:results_sum} 
+	\end{center}
+	\end{table}	
+
+	This will be followed by an summary section with conclusions draw from each analysis section.
+
+	\input{tex/analysis_sub/ana1}
+	\input{tex/analysis_sub/ana2}
+	\input{tex/analysis_sub/ana3}
+	\input{tex/analysis_sub/ana4}
+	\input{tex/analysis_sub/ana5}
+	\input{tex/analysis_sub/ana6}
+
+	\section{Analysis Summary}
+		% Summarise the results
+
+
+
+		Ana1: There is no significant difference on SA score between viewing positions
+
+		Ana2: OCT and Hamasaki Cube were found to be statistically significant with regards to the SA 'Sense of Space'. This can be seen as a significantly poor performance from the spot mics at viewing position B. Though little statistical significance was found between the difference microphone arrays, by analysing figure~\ref{image:sa_allmics} we can determine which microphones are overall the best choice with regards to this listening test. The two microphone arrays that showed statistical significance, the OCT and Hamasaki Cube also happen to consistently be among the top scoring microphone arrays across all spatial attributes.
+
+		Ana3: Results are inconclusive. There appears to be no significant difference between using either a direct or diffuse-field microphone array so long as spot microphones alone are not used.
+
+		Ana4: Timbre itself seems to be unaffected by view position. However participants perception of 'realistic' and 'loud' appears to be the most affected with a higher score for viewing position A. It is hypothesised that this is due to the unnatural room acoustic and sound source seperation caused when listening to the spot mic mix that skews the result this way.
+
+		Ana5: Statistically significant positive correlation between sense of space and 'realistic'. Also significant negative correlation between SoS and the perception of the timbre sounding 'Full'.
+
