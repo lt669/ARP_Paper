@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -7,11 +7,50 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
-\bibitem{riaz2017multichannel}
-H.~Riaz, M.~Stiles, C.~Armstrong, A.~Chadwick, H.~Lee, G.~Kearney,
-  \enquote{Multichannel Microphone Array Recording for Popular Music Production
-  in Virtual Reality,} presented at the \emph{Audio Engineering Society
-  Convention 143} (2017 Oct),
-  \urlprefix\url{http://www.aes.org/e-lib/browse.cfm?elib=19333}.
+\bibitem{Studio3}
+{abbeyroad.com}, \enquote{{Studio Three},} Available at:
+  \url{https://www.abbeyroad.com/studio/studio-three}, online; Accessed on
+  13/08/17.
+
+\bibitem{gopro}
+{gopro.com}, \enquote{{GoPro Omnirig 360 Camera},} Available at:
+  \url{https://shop.gopro.com/virtualreality/omni---all-inclusive/MHDHX-006.html},
+  online; Accessed on 20/08/17.
+
+\bibitem{williamsMMAD}
+M.~Williams, \enquote{Multichannel Sound Recording Practice Using Microphone
+  Arrays,} presented at the \emph{Audio Engineering Society Conference: 24th
+  International Conference: Multichannel Audio, The New Reality} (2003 June).
+
+\bibitem{williams91}
+{M. Williams}, \enquote{Microphone Arrays for Natural Multiphony,} presented at
+  the \emph{Audio Engineering Society Convention 91} (1991 Oct).
+
+\bibitem{esma}
+{Hyunkook Lee}, \enquote{{Capturing and Rendering 360° VR Audio using Cardioid
+  Microphones},} Available at: \url{http://eprints.hud.ac.uk/29582/1/AES.com},
+  online; Accessed on 9/06/17.
+
+\bibitem{ambeo}
+{Sennheiser.com}, \enquote{{Sennheiser AMBEO VR Microphone},} Available at:
+  \url{http://en-uk.sennheiser.com/microphone-3d-audio-ambeo-vr-mic}, online;
+  Accessed on 12/06/17.
+
+\bibitem{TheileWittek}
+G.~Theile, H.~Wittek, \enquote{{Principles in Surround Recordings with
+  Height},}  (December 2011).
+
+\bibitem{Theile}
+G.~Theile, \enquote{{Multichannel Natural Music Recording Based on
+  Psychoacoustic Principles},}  (IRT. M\"{u}nchen, Germany. October 2001).
+
+\bibitem{IRTschoeps}
+{Schoeps Mikrofone}, \enquote{{IRT Cross},} Available at:
+  \url{http://www.schoeps.de/en/products/irt-cross-set}, online; Accessed on
+  12/06/17.
+
+\bibitem{ProToolsHD}
+{Avid.com/ProToolsHD}, \enquote{{ProTools HD},} Available at:
+  \url{http://www.avid.com/pro-tools-hd}, online; Accessed on 20/08/17.
 
 \end{thebibliography}

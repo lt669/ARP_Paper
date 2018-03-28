@@ -1,3 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ARP_Paper.aux
 The style file: aes2e.bst
 Database file #1: aes2e.bib
+Warning--entry type for "Theile" isn't style-file defined
+--line 102 of file aes2e.bib
+Warning--entry type for "TheileWittek" isn't style-file defined
+--line 110 of file aes2e.bib
+I was expecting a `,' or a `}'---line 346 of file aes2e.bib
+ :  
+ :  @misc{Atmos,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+(There was 1 error message)
