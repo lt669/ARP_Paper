@@ -5,7 +5,7 @@ Warning--entry type for "Theile" isn't style-file defined
 --line 102 of file aes2e.bib
 Warning--entry type for "TheileWittek" isn't style-file defined
 --line 110 of file aes2e.bib
-I was expecting a `,' or a `}'---line 346 of file aes2e.bib
+I was expecting a `,' or a `}'---line 364 of file aes2e.bib
  :  
  :  @misc{Atmos,
 (Error may have been on previous line)
