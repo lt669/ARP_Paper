@@ -1,13 +1,54 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: ARP_Paper.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ARP_Paper.aux
 The style file: aes2e.bst
 Database file #1: aes2e.bib
-Warning--entry type for "Theile" isn't style-file defined
---line 102 of file aes2e.bib
-Warning--entry type for "TheileWittek" isn't style-file defined
---line 110 of file aes2e.bib
-I was expecting a `,' or a `}'---line 364 of file aes2e.bib
+I was expecting a `,' or a `}'---line 415 of file aes2e.bib
  :  
  :  @misc{Atmos,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in Noisternig2003
+Warning--empty year in Power
+You've used 5 entries,
+            2619 wiz_defined-function locations,
+            619 strings with 5524 characters,
+and the built_in function-call counts, 1655 in all, are:
+= -- 98
+> -- 41
+< -- 5
++ -- 17
+- -- 12
+* -- 107
+:= -- 180
+add.period$ -- 9
+call.type$ -- 5
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 193
+empty$ -- 167
+format.name$ -- 15
+if$ -- 352
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 44
+newline$ -- 24
+num.names$ -- 5
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 38
+stack$ -- 0
+substring$ -- 52
+swap$ -- 121
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 11
+width$ -- 6
+write$ -- 54
 (There was 1 error message)

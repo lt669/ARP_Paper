@@ -36,7 +36,7 @@
 					Videos shot using the Samsung 360 camera can be stitched and processed using Samsungs dedicated software 'Gear 360 Action Developer'\cite{actiondev}. As the camera only uses two fish eye lenses it is not possible to adjust where the software stitches the two videos together meaning that any ghosting effect that occurs can not be removed. As the Samsung 360 was placed further away from the musicians and the front facing lens was directed towards the entire ensemble, ghosting did not affect any subjects of interest. Once the video was stitched the same post-processing in Adobe Premiere was applied to the video.\\
 			
 			\subsubsection{Video Playback and Head-Tracking}
-				 Kolor's GoPro VR Player \cite{GoProVR} can be used to open and preview 360 videos with built in head-mounted display (HMD) support allowing the video to be navigated using either the HMD's motion sensors or by clicking on the video and dragging. In the case of this project an Oculus Development Kit 2 (DK2) \cite{OculusDK2} headset was utilised. Using an external piece of software it is possible to send the head-tracking data from GoPro VR Player to Reaper to synchronise the soundfield rotation required for head movement. This is explained in section ~\ref{spooks}.
+				 Kolor's GoPro VR Player \cite{GoProVR} can be used to open and preview 360 videos with built in head-mounted display (HMD) support allowing the video to be navigated using either the HMD's motion sensors or by clicking on the video and dragging. In the case of this project an Oculus Development Kit 2 (DK2) \cite{OculusDK2} headset was utilised. Using an external piece of software it is possible to send the head-tracking data from GoPro VR Player to Reaper to synchronise the soundfield rotation required for head movement. This is explained in section ~\ref{avsync}.
 
 
 		\subsection{Audio Post-Production}
@@ -93,7 +93,7 @@
 
 				As Google have recently adopted the KU100 measurements from the SADIE database to use in their YouTube360 \cite{youtube360} online platform, the same HRTF data set was used in the binaural decoding process. The HRTF set first needed to be converted from 44.1kHz/16-bit as downloaded from the SADIE database to 48kHz/24-bit to match the settings of the Reaper project using the r8brain V1.9 \cite{r8brain} application.
 
-		\subsection{Audio Visual Synchronisation}
+		\subsection{Audio Visual Synchronisation}\label{avsync}
 
 			When turning your head in the real world, sound sources remain static in 3D space and your perspective of the world is rotated both visually and sonically. When listening to a binaural decode over headphones however, when you turn you head the headphones and the audio being played through them stay in place on your head. If something was encoded you sound like it was coming from your right, it would sound like it was coming from your right no matter where you turned your head. To create a truly immersive audio visual environment the sound field must be rotated as the visuals are. 
 

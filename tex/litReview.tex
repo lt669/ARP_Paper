@@ -18,10 +18,29 @@
 
 \section{Literature Review} \label{lit}
 
+	This section will provide an overview of the necessary literature upon which this project is based. \\
+
+	\subsection{Ambisonics}
+
+		Originally conceived by Gerzon \cite{gerzon1973} in the 1970's, Ambisonics is a technique that exploits the decomposition of sound fields into spherical harmonics for spatial audio reproduction. At its most basic form, First Order Ambisonics (FOA) can be used to reproduce a 3-dimensional sound field using just four spherical harmonic components. This can then be extended to Higher Order Ambisonics (HOA) which includes spherical harmonic components beyond the first order which increases sound field reproduction accuracy \cite{Bertet2007}. A major benefit to the Ambisonics framework is the irrelevance of the number of sound sources, requiring only the number of channels that the chosen Ambisonic order requires. Further still, when using loudspeakers for the sound field reproduction, the number of loudspeakers required is variable depending on the Ambisonic order. An Ambisonic signal can be decoded over a variety of different loudspeaker configurations providing that the number of loudspeakers is equal or greater than the number of spherical harmonics, $m =(n+1)^2$ where $n$ is the Ambisonic order.
+
+		Ambisonic can be decoded for binaural playback over headphones by using \textit{virtual loudspeaker}, where a HRTF data set is used in place of real loudspeakers. Combining this with a dynamically rotating sound field, accurate real world listening can be reproduced over headphone \cite{Mckeag1996} \cite{Noisternig2003}.
+
+		Recording spatial audio to use for an Ambisonics framework can be done using a multiple recording techniques. These will be covered in the following sections.
+
+
+	\subsection{Ambisonic Microphones}
+
+		\subsubsection{FOA Microphones}
+
+			There are two commercially available FOA microphones available on the market that are used in this study, the \textbf{Soundfield ST450 MKII} and the \textbf{Sennheiser AMBEO VR Microphone}. Both microphones utilise a coincident tetrahedral arrangement of four cardioid microphone capsules to capture the sound pressure on the surface of a sphere. The four channel output from the microphones containing the raw audio captured by the four microphone capsules is known as A-Format and is converted into a B-Format signal by summing and subtracting the audio signals in various ways to produce a omni directional channel (W) and three figure of 8 channels (X,Y,Z) \cite{Power}.
+
+
+	\subsection{Muti-Microphones Arrays} \label{lit:microphones}
+
+
 	\subsection{Recording Techniques}
 
-	\subsection{Microphones} \label{lit:microphones}
-	
 		This sections reviews the microphone arrays used in the project
 
 		\subsubsection{OCT} \label{sec:OCT}
