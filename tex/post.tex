@@ -43,10 +43,9 @@
 			
 			\subsubsection{Creating a Higher-Order Ambisonics Template in Reaper}
 
-				Reaper \cite{Reaper} is (at the time of writing) currently the only DAW that allows for up to 64 channels per track making it perfect for Higher Order Ambisonic (HOA) production. A Reaper template utilising a 36 channel bus for each of the microphone arrays was produced, allowing the microphone arrays to be encoded up to Fifth-Order Ambisonics. Each of the 36 channel buses for each of the microphones arrays were then routed to a 36 channel track containing a sound field rotator and Fifth-Order binaural decoder.
+				Reaper \cite{Reaper} is (at the time of writing) currently the only DAW that allows for up to 64 channels per track making it perfect for Higher Order Ambisonic (HOA) production. A Reaper template utilising a 36 channel bus for each of the microphone arrays was produced, allowing the microphone arrays to be encoded up to Fifth-Order Ambisonics. Each of the 36 channel buses for each of the microphones arrays were then routed to a 36 channel track containing a sound field rotator and Fifth-Order binaural decoder. \\
 				
 				The Eigenmike was imported and processed on its own 36 channel track and routed to a sound field rotator and 3\su{rd} decoder. As the Eigenmike was placed on its side during the recording session, the orientation was corrected by applying an additional sound field rotation.
-
 				The B-Format recordings produced by the Soundfield ST450 MKII microphones created four tracks for each of the W, X, Y and Z information channels. The separate W, X, Y and Z channels were assigned to a four channel 'parent' track in Reaper. The Soundfield ST450's also required their own 4 channel First-Order Ambisonic tracks and decoders.\\
 
 				Once the template was produced, the raw audio files were imported and grouped into the appropriate microphone groups. The following sections describe the processing of the raw audio files to produce a Fifth-Order head-tracking binaural mix. \\
@@ -54,13 +53,16 @@
 			\subsubsection{Treatment and Ambisonic Encoding}
 				Before anything was encoded into an Ambisonic format, Reaper 'ReaEQ' equalisation plugins were applied to each of the microphone tracks. It is important to EQ the tracks before Ambisonic encoding to prevent spherical harmonic distortion. In some instances where the microphones were placed close to the instruments, subtle filtering was applied such as a 6db reduction below 110Hz on the drum kit to reduce the overpowering bass drum in an attempt to increase the clarity of the mix. Individual microphone channels within an array were treated with the same equalisation to provide consistency for the listening tests. The spot microphones were treated by Mirek Stiles from Abbey Road Studio before being imported into the Reaper project. This was to ensure that the spot microphone recordings were of good tonal quality as a standard mix should be. \\
 
-				Inserted in the FX chain next was a Fifth-Order AmbiX encoder. The AmbiX encoders use the ambiX Ambisonic format, with the Ambisonic Channel Number (ACN) ordering and SN3D normalisation conventions \cite{AmbixFORMAT}. The AmbiX encoder plug-ins provide a graphical interface from which one can position mono or stereo sound sources to specific azimuth and elevation angles around the VR environment, shown in figure~\ref{ambixEncode}.
+				Inserted in the FX chain next was a Fifth-Order AmbiX encoder. The AmbiX encoders use the ambiX Ambisonic format, with the Ambisonic Channel Number (ACN) ordering and SN3D normalisation conventions \cite{AmbixFORMAT}. The AmbiX encoder plug-ins provide a graphical interface from which one can position mono or stereo sound sources to specific azimuth and elevation angles around the VR environment, shown in figure~\ref{ambixEncode}.\\
 
 				% Spot mics
 				The spot microphones were duplicated and split into two groups. The first group was used to encode the spot microphones relative to the video from viewing position A and the second for viewing position B. This was done by opening the video in GoPro VR Player and setting the view to the reference 0\textdegree~position, in this case the centre of the drum kit. The individual spot microphones were then placed in the 3-dimensional space using the ambiX encoder plug-ins and using the Oculus DK2 as a visual reference. A B-Format impulse response of St Albans Cathedral \cite{OpenAir} was obtained from the OpenAir online impulse response library to create a convolution reverb effect on the lead and backing vocals. Using the AmbiX MCFX Convolver4 plug-in \cite{AmbixPLUGINS}, \cite{AmbixDOWNLOAD} inserted onto 4-channel auxiliary track, it was possible to achieve a 3-D reverb effect that suited the VR experience better than a standard mono or stereo reverb effect. The vocal tracks could then be sent individually to the B-Format reverb bus to achieve the required wet/dry ratio.
 
 				% Microphone Arrays
-				Each microphone arrays was encoded in the same way that they should naturally be listened to. For example, the OCT surround channels were encoded in the same position that the speakers are designed to be placed as described in section~\ref{sec:OCT}. For other microphones arrays that are not designed to be fed straight to a specific speaker layout, each microphone channel was encoded into a position relative to the listener as the microphones were placed in the room.
+				Each microphone array was encoded in the same way that they should naturally be listened to. For example, the OCT surround channels were encoded in the same position that the speakers are designed to be placed as described in section~\ref{sec:OCT9}. For other microphones arrays that are not designed to be fed straight to a specific speaker layout, each microphone channel was encoded into a position relative to the listener as the microphones were placed in the room.
+
+				% PCMA
+				The left and right pair of coincident microphones for the PCMA were routed through a stereo bus so that the microphone width can be adjusted using pan pots. The left and right buses were panned at 30\% and -30\% respectively creating a pair of virtual microphones that were angled at 70.5\textdegree{} from the centre position.
 
 				\begin{figure}[h]
 				\begin{center}
@@ -71,10 +73,10 @@
 				\end{figure}
 
 				% ST450
-				For the raw SoundField ST450 recordings it was necessary to convert the Soundfield's B-Format recordings from the Furse-Malham format to the ambiX format using the AmbiX Converter plug-in \cite{AmbixPLUGINS}, \cite{AmbixDOWNLOAD}, which corrected the channel sequence and normalisation before the decoding stage. Apart from the format conversion, no other Ambisonic encoding was required as the Soundfield ST450 MKII microphone captured the full spherical soundfield with sound sources already in the correct locations. 
+				For the raw SoundField ST450 recordings it was necessary to convert the Soundfield's B-Format recordings from the Furse-Malham format to the ambiX format using the AmbiX Converter plug-in \cite{AmbixPLUGINS}, \cite{AmbixDOWNLOAD}, which corrected the channel sequence and normalisation before the decoding stage. Apart from the format conversion, no other Ambisonic encoding was required as the Soundfield ST450 MKII microphone captured the full spherical soundfield with sound sources already in the correct locations. \\
 
 				% Eigen
-				Before importing into the reaper project, the Eigenmike recording was encoded into Third-Order Ambisonics using the EigenUnits plug-in by mh acoustics \cite{eigen}. This then meant the 36 channel 3\su{rd} order Eigenmike tack could be imported into the Reaper project without he need to encode the track in real time. As the Eigenmike was mounted on its side during the recording session, the soundfield had to be rotated by -90\textdegree{} in the elevation plane to compensate for this positioning using an AmbiX Third-Order Rotator \cite{AmbixPLUGINS}.
+				Before importing into the reaper project, the Eigenmike recording was encoded into Third-Order Ambisonics using the EigenUnits plug-in by mh acoustics \cite{eigen}. This then meant the 36 channel 3\su{rd} order Eigenmike track could be imported into the Reaper project without the need to encode the track in real time. As the Eigenmike was mounted on its side during the recording session, the soundfield had to be rotated by -90\textdegree{} in the elevation plane to compensate for this positioning using an AmbiX Third-Order Rotator \cite{AmbixPLUGINS}.
 
 			\subsubsection{Binaural Decoding}
 
@@ -84,9 +86,9 @@
 				%\resizebox{0.45\textwidth}{!}{%
 				\begin{tabular}{|c| >{\cen}m{18mm}| >{\cen}m{45mm}|} \hline
 					Order & Speaker Layout& Configuration File \\ \hline
-					First & 50 point Lebedev Grid & "h5-v5-50\_point\_Lebedev\_Grid-MaxRe-pinv" \\ \hline
+					Fifth & 50 point Lebedev Grid & "h5-v5-50\_point\_Lebedev\_Grid-MaxRe-pinv" \\ \hline
 					Third & 32 point Lebedev Grid & h3-v3-Lebedev-Grid-26-Speakers-MaxRe-pinv \\\hline
-					Fifth & 8 point Cube & h1-v1-Cube-MaxRe-pinv\\ \hline
+					First & 8 point Cube & h1-v1-Cube-MaxRe-pinv\\ \hline
 				\end{tabular}%}
 				\end{center}
 
@@ -95,10 +97,8 @@
 
 		\subsection{Audio Visual Synchronisation}\label{avsync}
 
-			When turning your head in the real world, sound sources remain static in 3D space and your perspective of the world is rotated both visually and sonically. When listening to a binaural decode over headphones however, when you turn you head the headphones and the audio being played through them stay in place on your head. If something was encoded you sound like it was coming from your right, it would sound like it was coming from your right no matter where you turned your head. To create a truly immersive audio visual environment the sound field must be rotated as the visuals are. 
+			When turning your head in the real world, sound sources remain static in 3D space and your perspective of the world is rotated both visually and sonically. When listening to a binaural decode over headphones however, when you turn your head the headphones and the audio being played through them stay in place on your head. If something was encoded you sound like it was coming from your right, it would sound like it was coming from your right no matter where you turned your head. To create a truly immersive audio visual environment the sound field must be rotated as the visuals are. This can be achieved by using a sound field rotation plug-in and feeding it real time rotation data. 
 
-			This can be achieved by using a sound field rotation plug-in and feeding it real time rotation data. 
-
-			SpookSyncVR \cite{SpookSync} is built in Max MSP as a stand-alone application that allows data exchange between GoPro VR Player and Reaper using Open Sound Control (OSC). Using SpookSyncVR it is possible to gather the X (yaw) and Y (pitch) positional data from the headset and transfer the information to Reaper so that the sound field can be rotated accordingly. For this an Ambix Rotator plug-in was inserted into each of the three decoder tracks just before the binaural decoding plug-in for which the yaw and pitch data from GoPro VR Player were assigned to control the values of the yaw and pitch data of the rotator plug-ins. By designating the GoPro VR Player as the 'master' and Reaper as the 'slave' it was possible to synchronise, play and stop the audio and video together. 
+			SpookSyncVR \cite{SpookSync} is built in Max MSP as a stand-alone application that allows data exchange between GoPro VR Player and Reaper using Open Sound Control (OSC). Using SpookSyncVR it is possible to gather the X (yaw) and Y (pitch) rotation data from the headset and transfer the information to Reaper so that the sound field can be rotated accordingly. For this an Ambix Rotator plug-in was inserted into each of the three decoder tracks just before the binaural decoding plug-in for which the yaw and pitch data from GoPro VR Player were assigned to control the values of the yaw and pitch data of the rotator plug-ins. By designating the GoPro VR Player as the 'master' and Reaper as the 'slave' it was possible to synchronise, play and stop the audio and video together. 
 	
 		

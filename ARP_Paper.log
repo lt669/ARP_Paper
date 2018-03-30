@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.14)  29 MAR 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.14)  30 MAR 2018 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,28 +402,30 @@ ion {#1}{#2}\vskip \belowcaptionskip \fi \fi .
 \c@lotdepth=\count119
 \sf@top=\skip80
 \sf@bottom=\skip81
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./ARP_Paper.aux)
 \openout1 = `ARP_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 34.
 \big@size=\dimen151
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -489,33 +491,31 @@ e
 ))
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 32.
-Package gensymb Info: Math companion symbols declared on input line 32.
-LaTeX Info: Redefining \degree on input line 32.
-LaTeX Info: Redefining \celsius on input line 32.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 34.
+Package gensymb Info: Math companion symbols declared on input line 34.
+LaTeX Info: Redefining \degree on input line 34.
+LaTeX Info: Redefining \celsius on input line 34.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 32.
-LaTeX Info: Redefining \ohm on input line 32.
-Package gensymb Info: Using \textohm for \ohm on input line 32.
-Package gensymb Info: Using \textmu for \micro on input line 32.
+erthousand on input line 34.
+LaTeX Info: Redefining \ohm on input line 34.
+Package gensymb Info: Using \textohm for \ohm on input line 34.
+Package gensymb Info: Using \textmu for \micro on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 53.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 49.
-
-
-LaTeX Warning: No \author given.
-
-(./tex/litReview.tex
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 53.
 
+(./tex/intro.tex) (./tex/litReview.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -530,99 +530,850 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 25.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 34.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 34.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 32.
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+Non-PDF special ignored!
+
+
+]
+<images/mic/esma.png, id=14, 307.90031pt x 307.1475pt>
+File: images/mic/esma.png Graphic file (type png)
+
+<use images/mic/esma.png>
+Package pdftex.def Info: images/mic/esma.png used on input line 49.
+(pdftex.def)             Requested size: 93.59857pt x 93.36818pt.
+
+Underfull \hbox (badness 3128) in paragraph at lines 50--50
+[]\OT1/ptm/m/n/10 Fig. 1: |Equal-segment-microphone-array pro-posed by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<images/mic/ortf3D.PNG, id=16, 485.56406pt x 255.20343pt>
+File: images/mic/ortf3D.PNG Graphic file (type png)
+
+<use images/mic/ortf3D.PNG>
+Package pdftex.def Info: images/mic/ortf3D.PNG used on input line 60.
+(pdftex.def)             Requested size: 105.29929pt x 55.34274pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/mic/OCT.png, id=17, 549.05125pt x 324.21124pt>
+File: images/mic/OCT.png Graphic file (type png)
+
+<use images/mic/OCT.png>
+Package pdftex.def Info: images/mic/OCT.png used on input line 73.
+(pdftex.def)             Requested size: 140.40143pt x 82.9028pt.
+ <images/mic/pcma.png, id=18, 574.145pt x 431.6125pt>
+File: images/mic/pcma.png Graphic file (type png)
+
+<use images/mic/pcma.png>
+Package pdftex.def Info: images/mic/pcma.png used on input line 85.
+(pdftex.def)             Requested size: 117.0pt x 87.95425pt.
+ [2 <./images/mic/esma.png> <./images/mic/ortf3D.PNG> <./images/mic/OCT.png> <.
+/images/mic/pcma.png>]
+<images/mic/Hamasaki1.png, id=27, 500.87125pt x 391.4625pt>
+File: images/mic/Hamasaki1.png Graphic file (type png)
+
+<use images/mic/Hamasaki1.png>
+Package pdftex.def Info: images/mic/Hamasaki1.png used on input line 96.
+(pdftex.def)             Requested size: 117.0pt x 91.43819pt.
+
+<images/mic/irt.png, id=28, 215.30438pt x 152.06813pt>
+File: images/mic/irt.png Graphic file (type png)
+
+<use images/mic/irt.png>
+Package pdftex.def Info: images/mic/irt.png used on input line 108.
+(pdftex.def)             Requested size: 117.0pt x 82.63763pt.
+) (./tex/recording.tex
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+<images/other/FloorPlan.png, id=29, 655.44875pt x 596.2275pt>
+File: images/other/FloorPlan.png Graphic file (type png)
+
+<use images/other/FloorPlan.png>
+Package pdftex.def Info: images/other/FloorPlan.png used on input line 49.
+(pdftex.def)             Requested size: 187.20071pt x 170.2814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+[3 <./images/mic/Hamasaki1.png> <./images/mic/irt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+<images/other/ST450pos.png, id=35, 689.57625pt x 542.025pt>
+File: images/other/ST450pos.png Graphic file (type png)
+
+<use images/other/ST450pos.png>
+Package pdftex.def Info: images/other/ST450pos.png used on input line 76.
+(pdftex.def)             Requested size: 234.0pt x 183.93042pt.
+
+Underfull \hbox (badness 3872) in paragraph at lines 83--84
+ \OT1/ptm/m/it/10 2.2.1.5 Equal Seg-ment Mi-cro-phone Ar-ray (ESMA)[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \vbox (badness 5924) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+<images/other/esmapic.PNG, id=36, 912.40875pt x 555.07375pt>
+File: images/other/esmapic.PNG Graphic file (type png)
+
+<use images/other/esmapic.PNG>
+Package pdftex.def Info: images/other/esmapic.PNG used on input line 92.
+(pdftex.def)             Requested size: 234.0pt x 142.35078pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+[4 <./images/other/FloorPlan.png> <./images/other/ST450pos.png> <./images/other
+/esmapic.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 106--107
+ \OT1/ptm/m/it/10 2.2.2.2 Stereo X-Y Pair[] \OT1/ptm/m/n/10 A co-in-ci-dent ste
+reo X-Y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+<images/other/ambeopic.png, id=43, 299.1175pt x 212.795pt>
+File: images/other/ambeopic.png Graphic file (type png)
+
+<use images/other/ambeopic.png>
+Package pdftex.def Info: images/other/ambeopic.png used on input line 113.
+(pdftex.def)             Requested size: 234.0pt x 166.47296pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+<images/other/positionC.png, id=44, 430.60875pt x 365.365pt>
+File: images/other/positionC.png Graphic file (type png)
+
+<use images/other/positionC.png>
+Package pdftex.def Info: images/other/positionC.png used on input line 145.
+(pdftex.def)             Requested size: 234.0pt x 198.54854pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/other/posAC.png, id=45, 914.41624pt x 763.85374pt>
+File: images/other/posAC.png Graphic file (type png)
+
+<use images/other/posAC.png>
+Package pdftex.def Info: images/other/posAC.png used on input line 153.
+(pdftex.def)             Requested size: 234.0pt x 195.46196pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+[5 <./images/other/ambeopic.png>]
+Underfull \hbox (badness 1728) in paragraph at lines 165--166
+ \OT1/ptm/m/it/10 2.2.4.1 Drums[] \OT1/ptm/m/n/10 Each sec-tion of the drum kit
+ was
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Overfull \hbox (2.5905pt too wide) in paragraph at lines 193--193
+[]|[]| 
+ []
+
+
+Overfull \hbox (5.92047pt too wide) in paragraph at lines 193--193
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10 Mono
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10 Stereo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/ptm/m/n/10 Stereo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/ptm/m/n/10 Drum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/ptm/m/n/10 Room
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 199--200
+\OT1/ptm/m/n/10 quency spill from the bass gui-tar, an Am-peg B15N
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+
+<images/other/dummycab.JPG, id=50, 5203.44pt x 3468.96pt>
+File: images/other/dummycab.JPG Graphic file (type jpg)
+
+<use images/other/dummycab.JPG>
+Package pdftex.def Info: images/other/dummycab.JPG used on input line 203.
+(pdftex.def)             Requested size: 234.0pt x 155.9906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+<images/other/gtr1.JPG, id=51, 5203.44pt x 3468.96pt>
+File: images/other/gtr1.JPG Graphic file (type jpg)
+
+<use images/other/gtr1.JPG>
+Package pdftex.def Info: images/other/gtr1.JPG used on input line 216.
+(pdftex.def)             Requested size: 117.0pt x 77.96883pt.
+
+<images/other/gtr2.JPG, id=52, 5203.44pt x 3468.96pt>
+File: images/other/gtr2.JPG Graphic file (type jpg)
+
+<use images/other/gtr2.JPG>
+Package pdftex.def Info: images/other/gtr2.JPG used on input line 219.
+(pdftex.def)             Requested size: 117.0pt x 77.96883pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 216--220
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+[6 <./images/other/positionC.png> <./images/other/posAC.png> <./images/other/du
+mmycab.JPG>] <images/other/vox.JPG, id=58, 5203.44pt x 3468.96pt>
+File: images/other/vox.JPG Graphic file (type jpg)
+
+<use images/other/vox.JPG>
+Package pdftex.def Info: images/other/vox.JPG used on input line 230.
+(pdftex.def)             Requested size: 234.0pt x 155.9906pt.
+) (./tex/post.tex
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+[7 <./images/other/gtr1.JPG> <./images/other/gtr2.JPG> <./images/other/vox.JPG>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+<images/other/ambix.png, id=66, 405.76593pt x 343.2825pt>
+File: images/other/ambix.png Graphic file (type png)
+
+<use images/other/ambix.png>
+Package pdftex.def Info: images/other/ambix.png used on input line 69.
+(pdftex.def)             Requested size: 234.0pt x 197.97255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+
+Overfull \hbox (6.17215pt too wide) in paragraph at lines 87--93
+ [] 
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 96--97
+\OT1/ptm/m/n/10 sure-ments from the SADIE database to use in their
+ []
+
+[9 <./images/other/ambix.png>]) (./tex/listeningTests.tex
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]|\OT1/ptm/m/n/10 Abundance of low fre-quen-cies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]|\OT1/ptm/m/n/10 Abundance of high fre-quen-cies
+ []
+
+
+Overfull \hbox (3.65477pt too wide) in paragraph at lines 38--53
+[][] 
+ []
+
+) (./tex/analysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<images/graphs/results_sum_graph_V3.PNG, id=71, 508.14844pt x 264.99pt>
+File: images/graphs/results_sum_graph_V3.PNG Graphic file (type png)
+
+<use images/graphs/results_sum_graph_V3.PNG>
+Package pdftex.def Info: images/graphs/results_sum_graph_V3.PNG used on input l
+ine 26.
+(pdftex.def)             Requested size: 234.0pt x 122.02626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (1.76953pt too wide) in paragraph at lines 35--43
+[][] 
+ []
+
+(./tex/analysis_sub/ana1.tex
+<images/plots/AvB_Bar_error.PNG, id=75, 693.34032pt x 489.32813pt>
+File: images/plots/AvB_Bar_error.PNG Graphic file (type png)
+
+<use images/plots/AvB_Bar_error.PNG>
+Package pdftex.def Info: images/plots/AvB_Bar_error.PNG used on input line 26.
+(pdftex.def)             Requested size: 234.0pt x 165.14484pt.
+
+<images/stats/AvsB_sa_stack_all.PNG, id=76, 473.51906pt x 381.67593pt>
+File: images/stats/AvsB_sa_stack_all.PNG Graphic file (type png)
+
+<use images/stats/AvsB_sa_stack_all.PNG>
+Package pdftex.def Info: images/stats/AvsB_sa_stack_all.PNG used on input line 
+33.
+(pdftex.def)             Requested size: 234.0pt x 188.61276pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
 )
-Overfull \hbox (9.58754pt too wide) in paragraph at lines 48--58
-\OT1/ptm/m/n/10 Auro speaker lay-out - https://docs.google.com/document/d/1-
- []
-
-
-Overfull \hbox (5.43826pt too wide) in paragraph at lines 48--58
-\OT1/ptm/m/n/10 h7T9wjdY2L8d3MzBohdzhVsfJPdRlLM2abT22jpuyE/edit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--58
+(./tex/analysis_sub/ana2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-No file ARP_Paper.bbl.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[11 <./images/graphs/results_sum_graph_V3.PNG> <./images/plots/AvB_Bar_error.PN
+G>] <images/plots/allMics_edit.PNG, id=83, 1212.02812pt x 691.83469pt>
+File: images/plots/allMics_edit.PNG Graphic file (type png)
+
+<use images/plots/allMics_edit.PNG>
+Package pdftex.def Info: images/plots/allMics_edit.PNG used on input line 31.
+(pdftex.def)             Requested size: 486.0pt x 277.41515pt.
+) (./tex/analysis_sub/ana3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+<images/plots/ana3_allmics_performance.PNG, id=84, 1245.15187pt x 706.13812pt>
+File: images/plots/ana3_allmics_performance.PNG Graphic file (type png)
+
+<use images/plots/ana3_allmics_performance.PNG>
+Package pdftex.def Info: images/plots/ana3_allmics_performance.PNG used on inpu
+t line 29.
+(pdftex.def)             Requested size: 234.0pt x 132.70226pt.
+) (./tex/analysis_sub/ana4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<images/plots/bar_sharedMics.PNG, id=85, 870.25125pt x 623.32875pt>
+File: images/plots/bar_sharedMics.PNG Graphic file (type png)
+
+<use images/plots/bar_sharedMics.PNG>
+Package pdftex.def Info: images/plots/bar_sharedMics.PNG used on input line 24.
+
+(pdftex.def)             Requested size: 234.0pt x 167.60669pt.
+
+Overfull \hbox (5.65608pt too wide) in paragraph at lines 42--42
+ []|[]| 
+ []
+
+
+Overfull \hbox (3.90773pt too wide) in paragraph at lines 42--42
+ []|\OT1/ptm/m/n/10 ST450| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[12 <./images/stats/AvsB_sa_stack_all.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \vbox (badness 6316) has occurred while \output is active []
+
+)
+(./tex/analysis_sub/ana5.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./images/plots/allMics_edit.PNG> <./images/plots/ana3_allmics_performance
+.PNG> <./images/plots/bar_sharedMics.PNG>]
+<images/plots/sa_ta_corr_env.PNG, id=96, 611.28375pt x 576.65437pt>
+File: images/plots/sa_ta_corr_env.PNG Graphic file (type png)
+
+<use images/plots/sa_ta_corr_env.PNG>
+Package pdftex.def Info: images/plots/sa_ta_corr_env.PNG used on input line 29.
+
+(pdftex.def)             Requested size: 234.0pt x 220.74115pt.
+) (./tex/analysis_sub/ana6.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<images/stats/enjoyment_corr_V1.PNG, id=97, 723.45282pt x 1204.5pt>
+File: images/stats/enjoyment_corr_V1.PNG Graphic file (type png)
+
+<use images/stats/enjoyment_corr_V1.PNG>
+Package pdftex.def Info: images/stats/enjoyment_corr_V1.PNG used on input line 
+28.
+(pdftex.def)             Requested size: 234.0pt x 389.58319pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:22.0pt when 368.1pt
+ [14 <./images/plots/sa_ta_corr_env.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+) (./tex/summary.tex) (./ARP_Paper.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
+\OT1/ptm/m/n/10 URL $\OT1/pcr/m/n/10 http : / / www . aes . org / e-[]lib / bro
+wse .
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 41--44
+[]\OT1/ptm/m/n/10 P. J. Power, \OT1/ptm/m/it/10 Fu-ture Spa-tial Au-dio : Sub-j
+ec-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 41--44
+\OT1/ptm/m/it/10 tive Eval-u-a-tion of 3D Sur-round Sys-tems\OT1/ptm/m/n/10 , P
+h.D. the-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+\OT1/ptm/m/n/10 URL $\OT1/pcr/m/n/10 http : / / usir . salford . ac . uk / 3410
+0 / 1 /
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ° in font ptmr7t!
+
+Underfull \hbox (badness 5388) in paragraph at lines 52--55
+\OT1/pcr/m/n/10 / / eprints . hud . ac . uk / 29582 / 1 / AES . com$\OT1/ptm/m/
+n/10 , on-
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 62--64
+[]\OT1/ptm/m/n/10 M. Williams, ``Mi-cro-phone Ar-rays for Nat-u-ral
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:22.0pt when 369.1pt
+ [15 <./images/stats/enjoyment_corr_V1.PNG>]
+Underfull \hbox (badness 2495) in paragraph at lines 66--69
+[]\OT1/ptm/m/n/10 Schoeps Mikro-fone, ``ORTF-3D Out-door Set,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+\OT1/ptm/m/n/10 Avail-able at: $\OT1/pcr/m/n/10 http : / / www . schoeps . de /
+ en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+\OT1/pcr/m/n/10 products / ortf-[]3D-[]outdoor-[]set$\OT1/ptm/m/n/10 , on-line;
+ Ac-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 71--73
+[]\OT1/ptm/m/n/10 G. Theile, H. Wit-tek, ``Prin-ci-ples in Sur-round
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+[]\OT1/ptm/m/n/10 Schoeps Mikro-fone, ``IRT Cross,'' Avail-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+\OT1/ptm/m/n/10 at: $\OT1/pcr/m/n/10 http : / / www . schoeps . de / en / produ
+cts /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+[]\OT1/ptm/m/n/10 abbeyroad.com, ``Stu-dio Three,'' Avail-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+\OT1/ptm/m/n/10 at: $\OT1/pcr/m/n/10 https : / / www . abbeyroad . com / studio
+ /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+[]\OT1/ptm/m/n/10 gopro.com, ``Go-Pro Om-nirig 360 Cam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+\OT1/ptm/m/n/10 era,'' Avail-able at: $\OT1/pcr/m/n/10 https : / / shop . gopro
+ . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+\OT1/pcr/m/n/10 virtualreality / omni-[]-[]-[]all-[]inclusive /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+[]\OT1/ptm/m/n/10 Occulus.com, ``Sam-sung Gear VR Head-set
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 99--102
+\OT1/ptm/m/n/10 pow-ered by Oc-cu-lus,'' Avail-able at: $\OT1/pcr/m/n/10 https 
+: / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+\OT1/pcr/m/n/10 oculus . com / gear-[]vr/$\OT1/ptm/m/n/10 , on-line; Ac-cessed 
+on
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 104--106
+[]\OT1/ptm/m/n/10 Avid.com/ProToolsHD, ``Pro-Tools HD,'' Avail-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+[]\OT1/ptm/m/n/10 samsung.com, ``Sam-sung Ac-tion De-vel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+\OT1/ptm/m/n/10 oper,'' Avail-able at: $\OT1/pcr/m/n/10 https : / / resources .
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+\OT1/pcr/m/n/10 samsungdevelopers . com$\OT1/ptm/m/n/10 , on-line; Ac-cessed on
+
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 117--119
+[]\OT1/ptm/m/n/10 kolor.com, ``Go-Pro VR Player,'' Avail-able at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+\OT1/pcr/m/n/10 http : / / www . kolor . com / gopro-[]vr-[]player/$\OT1/ptm/m/
+n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+\OT1/ptm/m/n/10 Head-set,'' Avail-able at: $\OT1/pcr/m/n/10 https : / / www3 . 
+oculus .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+[]\OT1/ptm/m/n/10 Openair.lib, ``St Al-bans Cathe-dral B-Format
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+\OT1/ptm/m/n/10 Im-pulse Re-sponse,'' Avail-able at: $\OT1/pcr/m/n/10 http : / 
+/ www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+\OT1/pcr/m/n/10 openairlib . net / auralizationdb / content /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+\OT1/pcr/m/n/10 lady-[]chapel-[]st-[]albans-[]cathedral$\OT1/ptm/m/n/10 , on-li
+ne;
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1137) has occurred while \output is active []
+Underfull \hbox (badness 3375) in paragraph at lines 145--148
+[]\OT1/ptm/m/n/10 Matthiaskronlachner.com, ``Am-biX v0.2.7 Am-
+ []
 
-Extra height:22.0pt when 370.1pt
 
+Underfull \hbox (badness 3568) in paragraph at lines 145--148
+\OT1/ptm/m/n/10 bisonic plug-in suite,'' Avail-able at: $\OT1/pcr/m/n/10 http :
+ / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
+\OT1/pcr/m/n/10 matthiaskronlachner . com / ?p = 2015$\OT1/ptm/m/n/10 , on-line
+;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+\OT1/pcr/m/n/10 sadie \ -[]project / past \ _news \ _01 . html$\OT1/ptm/m/n/10 
+, on-
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 163--166
+\OT1/ptm/m/n/10 able at: $\OT1/pcr/m/n/10 https : / / www . youtube . com / cha
+nnel /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+[]\OT1/ptm/m/n/10 Voxengo.com, ``r8brain Sam-ple Rate Con-
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1406) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:22.0pt when 371.1pt
+Extra height:0.0pt when 517.16995pt
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
-Extra height:22.0pt when 372.1pt
+(2)Left:517.16995pt Right:520.7399pt Output:517.16995pt
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
-Extra height:22.0pt when 373.1pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 2478) has occurred while \output is active []
-
-Extra height:22.0pt when 374.1pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 2922) has occurred while \output is active []
-
-Extra height:22.0pt when 375.1pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 3428) has occurred while \output is active []
-
-Extra height:22.0pt when 376.1pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 3977) has occurred while \output is active []
-
-Extra height:22.0pt when 377.1pt
-
-Underfull \vbox (badness 4595) has occurred while \output is active []
-
-Extra height:0.0pt when 378.1pt
-(2)Left:378.1pt Right:356.6pt Output:378.1pt
+(2)Left:520.7399pt Right:520.7399pt Output:520.7399pt
 - LAST -
-Left:378.1pt
-Right:356.6pt
-Output:378.1pt
+Left:520.7399pt
+Right:520.7399pt
+Output:520.7399pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (2.5pt too high) has occurred while \output is active []
 
@@ -639,42 +1390,37 @@ Output:2.5pt
 Overfull \vbox (2.5pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (252.0pt too wide) in paragraph at lines 62--62
+Overfull \hbox (252.0pt too wide) in paragraph at lines 68--68
 | 
  []
 
-
-Overfull \vbox (179.83984pt too high) has occurred while \output is active []
-
-
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-Non-PDF special ignored!
-
-
+[16
 
 ] (./ARP_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4441 strings out of 493089
- 66257 string characters out of 6134842
- 139776 words of memory out of 5000000
- 7838 multiletter control sequences out of 15000+600000
- 35964 words of font info for 76 fonts, out of 8000000 for 9000
+ 4817 strings out of 493089
+ 72793 string characters out of 6134842
+ 152324 words of memory out of 5000000
+ 8127 multiletter control sequences out of 15000+600000
+ 42540 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,42p,1223b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,47p,1589b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on ARP_Paper.pdf (1 page, 69050 bytes).
+r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on ARP_Paper.pdf (16 pages, 39815447 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,52 +3,65 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ARP_Paper.aux
 The style file: aes2e.bst
 Database file #1: aes2e.bib
-I was expecting a `,' or a `}'---line 415 of file aes2e.bib
+Warning--entry type for "Theile" isn't style-file defined
+--line 152 of file aes2e.bib
+Warning--entry type for "TheileWittek" isn't style-file defined
+--line 160 of file aes2e.bib
+I was expecting a `,' or a `}'---line 414 of file aes2e.bib
  :  
  :  @misc{Atmos,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 680 of file aes2e.bib
+ : @conference{williams91
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 688 of file aes2e.bib
+ :  @conference{williamsMMAD
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "esmaSchematic"
 Warning--there's a number but no volume in Noisternig2003
 Warning--empty year in Power
-You've used 5 entries,
+You've used 34 entries,
             2619 wiz_defined-function locations,
-            619 strings with 5524 characters,
-and the built_in function-call counts, 1655 in all, are:
-= -- 98
-> -- 41
+            781 strings with 9822 characters,
+and the built_in function-call counts, 8034 in all, are:
+= -- 420
+> -- 190
 < -- 5
-+ -- 17
-- -- 12
-* -- 107
-:= -- 180
-add.period$ -- 9
-call.type$ -- 5
-change.case$ -- 0
++ -- 86
+- -- 52
+* -- 379
+:= -- 823
+add.period$ -- 67
+call.type$ -- 34
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 193
-empty$ -- 167
-format.name$ -- 15
-if$ -- 352
+cite$ -- 36
+duplicate$ -- 1002
+empty$ -- 986
+format.name$ -- 59
+if$ -- 1756
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 44
-newline$ -- 24
-num.names$ -- 5
-pop$ -- 79
+int.to.str$ -- 34
+missing$ -- 227
+newline$ -- 111
+num.names$ -- 34
+pop$ -- 559
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 38
+skip$ -- 145
 stack$ -- 0
-substring$ -- 52
-swap$ -- 121
+substring$ -- 119
+swap$ -- 522
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 11
-width$ -- 6
-write$ -- 54
-(There was 1 error message)
+while$ -- 40
+width$ -- 36
+write$ -- 285
+(There were 3 error messages)
